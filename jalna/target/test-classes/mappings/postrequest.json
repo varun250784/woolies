@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/user/234"
+    },
+    "response": {
+        "status": 201,
+        "body": "User created!"
+    }
+}
