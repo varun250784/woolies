@@ -1,0 +1,26 @@
+
+Question 3 Task 1
+ 
+ Q: What other tests would you write if you were developing a sanity/smoke test pack? (provide explanation)
+ A: 1) Verify menu links are working
+    2) Verify Text boxes accept all characters.
+    3) Verify the Screen works for all monitor size.
+    4) Verify the screen on all reasonable resolution
+    5) Verify tab functionality is working
+    6) Verify Back button is working on browser
+    
+    
+    Task 2 Questions
+    
+    Q : How would you test and validate the dynamic values in the payload such as “sunrise”,”sunset” etc... so that you could run it each day without the test failing?
+    A: Approach1 :  Develop a POJO and Ignore the sunrise and sunset from comparison.
+	   Approach2 : Use a third party library to get sunrise and sunset time for specific day and manipulate JSON at runtime.	
+
+
+     Q: What are some negative tests that you can think of and develop?
+     A: 1) Provide either  LAT or LON
+        2) Do not provide any LAt or LON
+        3) Provide incorrect LAt or LOn(3000)
+        4) Provide incorrect key
+        5) Provide alphabets in Lat or Lon
+
