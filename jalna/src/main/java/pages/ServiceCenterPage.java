@@ -3,8 +3,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import Managers.PageObjectManager;
-import ObjectRepository.ServiceCenter_OR;
+import managers.PageObjectManager;
+import objectrepository.ServiceCenter_OR;
 
 public class ServiceCenterPage  extends ServiceCenter_OR{
 	WebDriver driver;

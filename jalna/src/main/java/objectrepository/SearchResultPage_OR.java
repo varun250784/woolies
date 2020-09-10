@@ -1,4 +1,4 @@
-package ObjectRepository;
+package objectrepository;
 
 
 import org.openqa.selenium.WebElement;

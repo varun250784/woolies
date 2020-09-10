@@ -2,5 +2,6 @@ package enums;
 
 public enum DriverType {
 	CHROME,
-	IE
+	IE,
+	ANDROID
 }

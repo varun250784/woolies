@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(strict=false,
 plugin = {"pretty"}, monochrome = true,
 features = "src/main/java/features",
-glue={"stepdfn","Hooks"},
+glue={"stepdfn"},
 tags="@api"
 
 		)

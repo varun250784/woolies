@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import Managers.PageObjectManager;
-import ObjectRepository.SearchResultPage_OR;
+import managers.PageObjectManager;
+import objectrepository.SearchResultPage_OR;
 
 public class SearchResultPage extends SearchResultPage_OR{
 

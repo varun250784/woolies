@@ -1,10 +1,11 @@
 package cucumber;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import Managers.WebDriverManager;
+import managers.WebDriverManager;
 import utils.ExcelReader;
 
 public class TestContext {
@@ -33,9 +34,9 @@ public class TestContext {
         return this.testData;
     }
 	
-	 public TestContext(){
+	 public TestContext() throws IOException{
 		 webDriverManager = new WebDriverManager();
-		 pageObjectManager = new PageObjectManager(webDriverManager.getDriver());
+		// pageObjectManager = new PageObjectManager(webDriverManager.getDriver());
 		 }
 		 
 		 public WebDriverManager getWebDriverManager() {

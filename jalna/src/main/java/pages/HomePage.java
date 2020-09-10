@@ -4,8 +4,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import Managers.PageObjectManager;
-import ObjectRepository.HomePage_OR;
+import managers.PageObjectManager;
+import objectrepository.HomePage_OR;
 import utils.CommonFunctionLib;
 
 public class HomePage extends HomePage_OR {

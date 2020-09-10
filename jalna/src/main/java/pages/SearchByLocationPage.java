@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import ObjectRepository.SearchByLocation_OR;
+import objectrepository.SearchByLocation_OR;
 
 public class SearchByLocationPage extends SearchByLocation_OR {
 
